@@ -59,6 +59,7 @@
     border-radius: 8px;
     padding: 5px 3px;
     cursor: pointer;
+    text-align: center;
 }
 
 .menu-container p a i {
