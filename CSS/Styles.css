@@ -8,7 +8,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Navbar styles */
+/* Navbar styles start*/
 
 .nav-container {
     display: flex;
@@ -64,3 +64,5 @@
 .menu-container p a i {
     color: blue;
 }
+
+/* Navbar styles end*/
