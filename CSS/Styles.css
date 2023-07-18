@@ -7,3 +7,60 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Navbar styles */
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-container p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.logo-container p span {
+    color: #ff42a5;
+}
+
+.menu-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.menu-container p {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 5px 3px;
+    cursor: pointer;
+}
+
+.menu-container p a i {
+    color: blue;
+}
