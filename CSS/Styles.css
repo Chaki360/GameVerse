@@ -186,7 +186,7 @@
     margin: 70px 0 auto;
     max-width: 1400px;
     gap: 10px;
-
+    margin-bottom: 50px;
 }
 
 
@@ -205,7 +205,7 @@
 /* Play game styles */
 
 .play-game-container {
-    margin-top: 25px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -276,7 +276,8 @@
 
 .footer-container {
     background: #0B0223;
-    padding: 200px;
+    width: 100%;
+    padding: 100px 40px 35px;
     margin-top: 50px;
     color: white;
 }
@@ -301,19 +302,72 @@
 }
 
 .footer-items {
+    margin: 35px 0;
+
+}
+
+.footer-items ul {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
-
+    justify-content: center;
 }
 
-.footer-items li {
+.footer-items ul li {
     list-style: none;
+    cursor: pointer;
 }
 
-.footer-items li a {
+.footer-items ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.Social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.Social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+
+}
+
+.Social-icons a i:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+.policy {
+    margin: 25px 0;
+}
+
+.policy ul {
+    display: flex;
+    justify-content: center;
+}
+
+.policy ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.policy ul li a {
+    text-decoration: none;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.footer-container p {
     text-align: center;
-    font-weight: 600;
-    font-size: 18px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
 }
