@@ -1,5 +1,6 @@
 /* Navbar responsive start */
-@media screen and (max-width:600px) {
+/* For Mobile */
+@media screen and (max-width:576px) {
 
     .nav-container {
 
@@ -22,31 +23,25 @@
         width: 100%;
         margin-bottom: 10px;
     }
-}
 
-@media only screen and (max-width: 768px) {
-    .nav-container {
+    /* Navbar responsive End */
 
+    /* Banner responsive start */
+    .banner-container {
         flex-direction: column;
-
     }
 
-    .menu-container {
-
-        flex-direction: column;
+    .banner-content,
+    .banner-img {
         width: 100%;
-
     }
 
-    .menu-container a {
-        margin-top: 20px;
+    .banner-content h2 {
+        font-size: 15px;
     }
 
-    .menu-container p {
-        width: 100%;
-        margin-bottom: 10px;
-
+    .banner-content h1 {
+        font-size: 30px;
     }
+
 }
-
-/* Navbar responsive end */

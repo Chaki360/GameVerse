@@ -102,6 +102,7 @@
 
 .banner-content {
     width: 50%;
+    text-align: center;
 
 }
 
@@ -130,6 +131,15 @@
     -webkit-background-clip: text;
 }
 
+.banner-description {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.banner-content button {
+    margin-right: 15px;
+}
+
 .banner-img {
     width: 50%;
 }
@@ -142,26 +152,26 @@
 
 /* Banner styles end */
 
+/* Online Games Style Start */
 
-.games-images {
-    display: flex;
-    justify-content: space-around;
-}
-
-.games-images .game img {
-    width: 342px;
-
+.games-container {
+    display: grid;
+    margin: 70px 0 auto;
+    max-width: 1400px;
 
 }
 
-
-
-.explore {
-    display: flex;
-    align-items: center;
+.games-text {
+    text-align: center;
 }
 
+.games-text h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
 
-.explore h5 {
-    margin-left: 10px;
+.games-text .funny-video {
+    background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
 }
