@@ -33,6 +33,18 @@
 
 }
 
+.btn-secondary:hover {
+    padding: 15px 35px;
+    gap: 10px;
+    border-radius: 48px;
+    background: white;
+    border: 1px solid skyblue;
+    color: #4EC5F7;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
 /* Navbar styles start*/
 
 .nav-container {
@@ -109,14 +121,14 @@
 .banner-content h2 {
     color: #0B0223;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
 
 }
 
 .banner-content h1 {
     text-align: center;
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 800;
     background-image: linear-gradient(to bottom, #f948b2, #8758f1);
     color: transparent;
