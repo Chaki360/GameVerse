@@ -44,4 +44,27 @@
         font-size: 30px;
     }
 
+    /* Banner responsive end */
+    .games-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .game img {
+        width: 100%;
+    }
+
+    .play-game-container {
+        flex-direction: column;
+    }
+
+    .play-game-content {
+        width: 100%;
+    }
+
+    .play-game-img {
+        width: 100%;
+    }
+
 }

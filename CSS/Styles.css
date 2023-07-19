@@ -59,8 +59,8 @@
 .logo-container {
     display: flex;
     width: 50%;
-    align-items: center;
     cursor: pointer;
+    justify-content: center;
 }
 
 .logo-container p {
@@ -108,7 +108,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    max-width: 1400px;
     margin: 50px auto 0;
 }
 
@@ -165,16 +164,9 @@
 /* Banner styles end */
 
 /* Online Games Style Start */
-
-.games-container {
-    display: grid;
-    margin: 70px 0 auto;
-    max-width: 1400px;
-
-}
-
 .games-text {
     text-align: center;
+    margin-top: 20px;
 }
 
 .games-text h1 {
@@ -186,4 +178,142 @@
     background-image: linear-gradient(to bottom, #f948b2, #8758f1);
     color: transparent;
     -webkit-background-clip: text;
+}
+
+.games-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 70px 0 auto;
+    max-width: 1400px;
+    gap: 10px;
+
+}
+
+
+.game p {
+    text-align: center;
+
+}
+
+.game img {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* Play game styles */
+
+.play-game-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.play-game-content {
+    width: 50%;
+
+}
+
+.play-game-content h1 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.play-game-content h1 .online {
+    font-size: 35px;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.play-game-img {
+    width: 50%;
+
+}
+
+.play-game-img img {
+    height: 100%;
+    width: 75%;
+    display: block;
+    margin: auto;
+
+}
+
+
+.explore-container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.explore-container .explore {
+    flex-basis: 275px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+.explore-container .explore:hover {
+    border-radius: 60px;
+    border: 1px solid #FF42A5;
+    font-weight: 500;
+    color: #f948b2;
+}
+
+/* Footer Styles */
+
+.footer-container {
+    background: #0B0223;
+    padding: 200px;
+    margin-top: 50px;
+    color: white;
+}
+
+.footer-logo-container {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-logo-container p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.footer-logo-container p span {
+    color: #ff42a5;
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.footer-items li {
+    list-style: none;
+}
+
+.footer-items li a {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
 }
