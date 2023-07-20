@@ -25,25 +25,14 @@
     padding: 15px 35px;
     gap: 10px;
     border-radius: 48px;
-    background: white;
-    border: 1px solid #4EC5F7;
-    color: #4EC5F7;
-    font-weight: 600;
-    cursor: pointer;
-
-}
-
-.btn-secondary:hover {
-    padding: 15px 35px;
-    gap: 10px;
-    border-radius: 48px;
     background: #4EC5F7;
-    border: none;
     color: white;
     font-weight: 600;
     cursor: pointer;
+    border: 0px;
 
 }
+
 
 /* Navbar styles start*/
 
