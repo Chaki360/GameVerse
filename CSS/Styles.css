@@ -200,8 +200,11 @@
 
 
 /* Play game styles */
-
 .play-game-container {
+    margin-bottom: 50px;
+}
+
+.play-games {
     margin-top: 50px;
     display: flex;
     flex-direction: row-reverse;
