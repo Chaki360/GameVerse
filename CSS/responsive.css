@@ -44,14 +44,16 @@
 
     /* Banner responsive end */
 
-
+    /* games responsive starts */
     .game-contents {
 
         flex-direction: column;
 
     }
 
+    /* games responsive ends */
 
+    /* play games responsive starts */
 
     .play-game-container {
         flex-direction: column;
@@ -65,13 +67,15 @@
         width: 100%;
     }
 
+    /* play games responsive ends */
+
     .footer-logo-container {
         display: block;
         align-items: center;
         justify-content: center;
     }
 
-    .footer-items {
+    .footer-items ul {
         flex-direction: column;
     }
 
@@ -81,12 +85,12 @@
         margin: 10px;
     }
 
-    .Social-icons {
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
-    }
 
     .policy {
+        flex-direction: column;
+    }
+
+    .policy ul {
         flex-direction: column;
     }
 
@@ -94,6 +98,11 @@
         width: 100%;
         text-align: center;
         margin: 10px;
+    }
+
+    .footer-container p {
+        text-align: center;
+        flex-shrink: 0;
     }
 
 
