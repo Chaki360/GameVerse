@@ -55,15 +55,15 @@
 
     /* play games responsive starts */
 
-    .play-game-container {
+    .play-games {
         flex-direction: column;
     }
 
-    .play-game-content {
+    .play-games .play-game-content {
         width: 100%;
     }
 
-    .play-game-img {
+    .play-games .play-game-img {
         width: 100%;
     }
 
@@ -75,6 +75,24 @@
         justify-content: center;
     }
 
+    /* Career section responsive */
+    .career-container {
+        flex-direction: column;
+    }
+
+    .career-content {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .career-img img {
+        width: 100%;
+
+    }
+
+    /* Footer section responsive */
     .footer-items ul {
         flex-direction: column;
     }
