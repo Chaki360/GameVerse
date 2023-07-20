@@ -108,7 +108,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px auto 0;
+    margin: 60px auto 0;
+    margin-bottom: 70px;
 }
 
 .banner-content {
@@ -265,18 +266,25 @@
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
-
+    border-radius: 10px;
 }
 
 .career-content {
     width: 50%;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+.career-content h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
 }
 
 .career-content .opportunity {
+    margin-top: 20px;
     font-size: 16px;
-    font-weight: 500px;
+    font-weight: 600px;
 }
 
 .career-img {
@@ -389,6 +397,7 @@
 .Social-icons a i:hover {
     cursor: pointer;
     background-color: white;
+    border-radius: 30%;
 }
 
 .policy {
