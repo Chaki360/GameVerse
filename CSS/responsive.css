@@ -43,15 +43,15 @@
     }
 
     /* Banner responsive end */
-    .games-container {
 
-        grid-template-columns: 1fr;
+
+    .game-contents {
+
+        flex-direction: column;
 
     }
 
-    .game img {
-        width: 100%;
-    }
+
 
     .play-game-container {
         flex-direction: column;
