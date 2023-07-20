@@ -1,3 +1,146 @@
+/* For tablet responsive */
+
+@media screen and (max-width:768px) {
+
+    .nav-container {
+
+        flex-direction: column;
+
+    }
+
+    .menu-container {
+
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .menu-container a {
+        margin-top: 20px;
+    }
+
+    .menu-container p {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* Navbar responsive End */
+
+    /* Banner responsive start */
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-content,
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-content h2 {
+        font-size: 15px;
+    }
+
+    .banner-content h1 {
+        font-size: 30px;
+    }
+
+    .banner-content button {
+        padding: 10px;
+    }
+
+    /* Banner responsive end */
+
+
+    /* games responsive starts */
+    .game-contents {
+
+        flex-direction: column;
+
+    }
+
+    /* games responsive ends */
+
+    /* play games responsive starts */
+
+    .play-games {
+        flex-direction: column;
+    }
+
+    .play-games .play-game-content {
+        width: 100%;
+    }
+
+    .play-games .play-game-img {
+        width: 100%;
+    }
+
+    /* play games responsive ends */
+
+    .footer-logo-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Career section responsive */
+    .career-container {
+        flex-direction: column;
+    }
+
+    .career-content {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .career-img img {
+        width: 100%;
+
+    }
+
+    /* Footer section responsive */
+    .footer-items ul {
+        flex-direction: column;
+    }
+
+    .footer-items ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+
+    .policy {
+        flex-direction: column;
+    }
+
+    .policy ul {
+        flex-direction: column;
+    }
+
+    .policy ul li {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .footer-container p {
+        text-align: center;
+        flex-shrink: 0;
+    }
+
+
+
+
+}
+
+
+
+
+/* For mobile responsive */
+
+
 @media screen and (max-width:576px) {
 
     .nav-container {
