@@ -42,6 +42,10 @@
         font-size: 30px;
     }
 
+    .banner-content button {
+        padding: 10px;
+    }
+
     /* Banner responsive end */
 
 
